@@ -22,4 +22,3 @@ Este projeto foi desenvolvido com fins didáticos, para praticar os conceitos in
 
 🙋‍♀️ Autora
 Letícia Alves
-Estudante de programação e desenvolvimento de sistemas
