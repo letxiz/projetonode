@@ -1,3 +1,4 @@
+Projeto Node.js – IFRR
 Este é um projeto simples desenvolvido em Node.js, criado com base na Apostila Node.js – Parte 1 do Prof. George Oliveira (IFRR). O objetivo é praticar e demonstrar conceitos fundamentais do Node.js, como criação de servidores, uso de módulos e manipulação de rotas.
 
 🛠 Tecnologias Utilizadas
