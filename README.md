@@ -1,24 +1,78 @@
-Projeto Node.js – IFRR
-Este é um projeto simples desenvolvido em Node.js, criado com base na Apostila Node.js – Parte 1 do Prof. George Oliveira (IFRR). O objetivo é praticar e demonstrar conceitos fundamentais do Node.js, como criação de servidores, uso de módulos e manipulação de rotas.
+# Projeto Node.js — IFRR
 
-🛠 Tecnologias Utilizadas
-Node.js
+Projeto didático desenvolvido para praticar os fundamentos do **Node.js** com exemplos pequenos, objetivos e executáveis localmente. O material acompanha os conteúdos introdutórios da disciplina/apostila do IFRR.
 
-JavaScript
+## Objetivos de aprendizagem
 
-Editor de código de sua preferência (VS Code, Replit, etc.)
+- Criar servidores HTTP usando o módulo nativo `http`;
+- Trabalhar com respostas em texto e HTML;
+- Organizar código com módulos locais usando `require`;
+- Ler URLs e parâmetros de consulta (*query parameters*).
 
-📌 Funcionalidades
-Criação de servidores HTTP simples
+## Tecnologias
 
-Utilização de módulos nativos e módulos próprios
+- [Node.js](https://nodejs.org/)
+- JavaScript
 
-Manipulação de URLs e parâmetros de consulta
+O projeto não possui dependências externas.
 
-Exemplos práticos para rodar no terminal e no navegador
+## Pré-requisitos
 
-💡 Objetivo
-Este projeto foi desenvolvido com fins didáticos, para praticar os conceitos introdutórios de Node.js apresentados na apostila, incluindo execução de código no servidor, manipulação de arquivos e separação de responsabilidades por módulos.
+Tenha o [Node.js](https://nodejs.org/) instalado. Para confirmar a instalação, execute:
 
-🙋‍♀️ Autora
+```bash
+node --version
+```
+
+## Como executar
+
+1. Clone ou baixe este repositório.
+2. No terminal, acesse a pasta do projeto.
+3. Execute um dos exemplos:
+
+```bash
+node index.js
+```
+
+4. Abra `http://localhost:5000` no navegador.
+
+Para encerrar o servidor, pressione `Ctrl + C` no terminal.
+
+> Todos os exemplos usam a porta `5000`. Execute apenas um servidor por vez.
+
+## Exemplos disponíveis
+
+| Arquivo | Demonstração | Como executar |
+| --- | --- | --- |
+| `index.js` | Servidor HTTP básico com resposta de texto | `node index.js` |
+| `executa_http.js` | Resposta simples do servidor | `node executa_http.js` |
+| `executa_http_url.js` | Exibição da URL requisitada | `node executa_http_url.js` |
+| `executa_modulo.js` | Uso do módulo local `meuprimeiromodulo.js` | `node executa_modulo.js` |
+| `executa_query.js` | Leitura de parâmetros da URL | `node executa_query.js` |
+
+Ao executar `executa_query.js`, acesse, por exemplo:
+
+```text
+http://localhost:5000/?ano=2025&mes=Maio
+```
+
+## Estrutura do projeto
+
+```text
+.
+├── index.js                 # Servidor HTTP inicial
+├── executa_http.js          # Exemplo de resposta HTTP
+├── executa_http_url.js      # Exemplo de leitura da URL
+├── executa_modulo.js        # Exemplo de módulo local no servidor
+├── executa_query.js         # Exemplo de parâmetros de consulta
+├── meuprimeiromodulo.js     # Módulo que retorna data e hora
+└── package.json             # Metadados e scripts do projeto
+```
+
+## Autora
+
 Letícia Alves
+
+---
+
+Projeto criado para fins educacionais.
